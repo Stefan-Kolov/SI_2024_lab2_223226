@@ -10,6 +10,6 @@
 Name=Cokolado, Barcode=3456, Price=60, Discount=30;
 Name=null, Barcode=null, Price=100, Discount=10;
 Name=Sok, Barcode=a256, Price=35, Discount=5;
-Name=Jogurt, Barcode=1555, Price=85, Discount=0 }, payment = 1000
+Name=Jogurt, Barcode=1555, Price=85, Discount=0 }, payment = 20000
 3. allItems = { Name=Mleko, Barcode=6543, Price=55, Discount=5; Name=Jajca, Barcode=9854, Price=90, Discount=0 }, payment = 35
 
