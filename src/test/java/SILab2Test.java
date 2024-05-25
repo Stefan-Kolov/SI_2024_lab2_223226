@@ -24,6 +24,7 @@ public class SILab2Test {
         int payment2 = 100;
         assertFalse(SILab2.checkCart(items2,payment2));
 
+        //Returns True with null Name
         List<Item> items3 = new ArrayList<>();
         items3.add(new Item(null,"7543",100,10));
         int payment3 = 1500;
