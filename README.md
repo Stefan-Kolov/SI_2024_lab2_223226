@@ -19,7 +19,7 @@ null, Barcode=7543, Price=100, Discount=10}, payment = 20000
 Name=Zejtin, Barcode=1111, Price=80, Disocunt=2 }, payment = 100
 5. allItems = { Name=Riba, null, Price=500, Discount=2 }, payment = 1500
 ### Multiple Condition критериум
-За овој критериум потребни се 8 каде што ќе ги опфатиме сите можни комбинации за условот if (item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0').
+За овој критериум потребни се 8 теста каде што ќе ги опфатиме сите можни комбинации за условот if (item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0').
 Комбинациите се: (TTT,TTF,TFT,TFF,FTT,FTF,FFT,FFF). Тестовите кои се користени се:
 1. allItems = { Name=Jagodi, Barcode=0123, Price=350, Discount=10 }, payment = 4000
 2. allItems = { Name=Prasak za perenje, Barcode=1345, Price=500, Discount=5 }, payment = 3000
