@@ -1,6 +1,6 @@
 # Стефан Колов, 223226
 ### Control Flow Graph
-![Screenshot 2024-05-23 153834](https://github.com/Stefan-Kolov/SI_2024_lab2_223226/assets/137779689/f9c9906a-7074-44a9-a936-f73ecc0ac02a)
+![siLab2 drawio](https://github.com/Stefan-Kolov/SI_2024_lab2_223226/assets/137779689/d19f604f-96eb-4932-bd0e-728e80a70467)
 ### Цикломатска комплексност
 Цикломатската комплексност на дадениот код изнесува 10. Истата ја добив со броење на затворените региони.
 ### Every Branch критериум
