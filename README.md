@@ -29,7 +29,7 @@ Name=Zejtin, Barcode=1111, Price=80, Disocunt=2 }, payment = 100
 6. allItems = { Name=Cips, Barcode=9423, Price=80, Discount=5 }, payment = 500
 7. allItems = { Name=Resani, Barcode=0921, Price=55, Discount=0 }, payment = 100
 8. allItems = { Name=Mastiki, Barcode=1295, Price=35, Discount=0 }, payment = 50
-### Објаснување на унит тестовите
+### Објаснување на unit тестовите
 Unit тестовите се наоѓаат на локацијата src/test/java под име SILab2Test. Класата содржи две функции со нотација @Test. Едната функција е именувана EveryBranch и го тестира Every Branch критериумот
 додека пак другата функција е именувана MultipleCondition и го тестира Multiple Condition критериумот. Во EveryBranch функцијата се наоѓаат 6 assert изрази каде што се тестира дали функцијата
 враќа true,false или секој посебен вид на exception. Опфатени се сите можни сценарија на output. Во MultipleCondition функцијата има 8 assertTrue изрази каде што се опфатени сите можни комбинации за условот
