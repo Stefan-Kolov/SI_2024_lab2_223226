@@ -14,6 +14,7 @@ public class SILab2Test {
         items1.add(new Item("Vino","0123",500,20));
         items1.add(new Item("Cokolado","3456",60,30));
         items1.add(new Item("Jogurt","1555",85,0));
+        items1.add(new Item(null,"7543",100,10));
         int payment1 = 20000;
         assertTrue(SILab2.checkCart(items1,payment1));
 
@@ -21,14 +22,9 @@ public class SILab2Test {
         List<Item> items2 = new ArrayList<>();
         items2.add(new Item("Cokolado","1555",150,2));
         items2.add(new Item("Zejtin","1111",80,2));
+        items2.add(new Item(null,"7543",100,10));
         int payment2 = 100;
         assertFalse(SILab2.checkCart(items2,payment2));
-
-        //Returns True with null Name
-        List<Item> items3 = new ArrayList<>();
-        items3.add(new Item(null,"7543",100,10));
-        int payment3 = 1500;
-        assertTrue(SILab2.checkCart(items3,payment3));
 
         //allItems list can't be null!
         List<Item> items4 = null;
