@@ -27,22 +27,22 @@ public class SILab2Test {
         assertFalse(SILab2.checkCart(items2,payment2));
 
         //allItems list can't be null!
-        List<Item> items4 = null;
-        RuntimeException exception1 = assertThrows(RuntimeException.class, () -> SILab2.checkCart(items4,1000));
+        List<Item> items3 = null;
+        RuntimeException exception1 = assertThrows(RuntimeException.class, () -> SILab2.checkCart(items3,1000));
         assertEquals("allItems list can't be null!",exception1.getMessage());
 
         //Invalid character in item barcode!
-        List<Item> items5 = List.of(
+        List<Item> items4 = List.of(
                 new Item("Sok", "a256", 35, 5)
         );
-        RuntimeException exception2 = assertThrows(RuntimeException.class, () -> SILab2.checkCart(items5,500));
+        RuntimeException exception2 = assertThrows(RuntimeException.class, () -> SILab2.checkCart(items4,500));
         assertEquals("Invalid character in item barcode!",exception2.getMessage());
 
         //No barcode!
-        List<Item> items6 = List.of(
+        List<Item> items5 = List.of(
                 new Item("Riba",null,500,2)
         );
-        RuntimeException exception3 = assertThrows(RuntimeException.class, () -> SILab2.checkCart(items6,1500));
+        RuntimeException exception3 = assertThrows(RuntimeException.class, () -> SILab2.checkCart(items5,1500));
         assertEquals("No barcode!",exception3.getMessage());
     }
 
